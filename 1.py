@@ -18,6 +18,7 @@ bro = webdriver.Chrome(executable_path='./chromedriver', options=options)
 # BV号 空格分隔
 # 提取链接
 # https://zhuanlan.zhihu.com/p/349819745?ivk_sa=1024320u
+# for (var a of document.getElementsByTagName('a')) { console.log(a.href) }
 names = []
 li = names.split()
 print(len(li))
